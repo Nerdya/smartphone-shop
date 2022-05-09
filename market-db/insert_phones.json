@@ -1,0 +1,674 @@
+[
+    {
+        "imageName": "Galaxy-S22-Black-600x600",
+        "title": "Galaxy-S22-Black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Galaxy-S22-Plus-White-600x600",
+        "title": "Galaxy-S22-Plus-White-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Galaxy-S22-Ultra-Burgundy-600x600",
+        "title": "Galaxy-S22-Ultra-Burgundy-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-12-mini-den-15-600x600",
+        "title": "iphone-12-mini-den-15-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-12-pro-max-trang-bac-600x600-1-600x600",
+        "title": "iphone-12-pro-max-trang-bac-600x600-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-12-pro-xam-new-600x600-600x600",
+        "title": "iphone-12-pro-xam-new-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-12-xanh-la-new-2-600x600",
+        "title": "iphone-12-xanh-la-new-2-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-13-mini-pink-1-600x600",
+        "title": "iphone-13-mini-pink-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-13-pro-max-xanh-la-thumb-600x600",
+        "title": "iphone-13-pro-max-xanh-la-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-13-pro-sierra-blue-600x600",
+        "title": "iphone-13-pro-sierra-blue-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-13-xanh-la-thumb-new-600x600",
+        "title": "iphone-13-xanh-la-thumb-new-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-se-2020-trang-600x600-600x600",
+        "title": "iphone-se-2020-trang-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-se-black-600x600",
+        "title": "iphone-se-black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-xi-do-600x600",
+        "title": "iphone-xi-do-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "iphone-xr-128gb-600x600",
+        "title": "iphone-xr-128gb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "itel-l6006-violet-600x600",
+        "title": "itel-l6006-violet-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "itel-l6502-xanh-1-660x600",
+        "title": "itel-l6502-xanh-1-660x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-a15s-xanh-600x600-3-600x600",
+        "title": "oppo-a15s-xanh-600x600-3-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-a16k-thumb1-600x600-1-600x600",
+        "title": "oppo-a16k-thumb1-600x600-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-a55-4g-thumb-new-600x600",
+        "title": "oppo-a55-4g-thumb-new-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-a74-5g-silver-01-600x600",
+        "title": "oppo-a74-5g-silver-01-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "OPPO-A76-đen-600x600",
+        "title": "OPPO-A76-đen-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-a95-4g-bac-2-600x600",
+        "title": "oppo-a95-4g-bac-2-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-find-x5-pro-den-thumb-600x600",
+        "title": "oppo-find-x5-pro-den-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-reno4-pro-trang-600x600",
+        "title": "oppo-reno4-pro-trang-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-reno5-5g-thumb-600x600",
+        "title": "oppo-reno5-5g-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-reno6-5g-black-600x600",
+        "title": "oppo-reno6-5g-black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "oppo-reno7-z-5g-thumb-1-1-600x600",
+        "title": "oppo-reno7-z-5g-thumb-1-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-8-silver-600x600",
+        "title": "realme-8-silver-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-9-4g-vang-thumb-1-600x600",
+        "title": "realme-9-4g-vang-thumb-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-9i-den-thumb-600x600",
+        "title": "realme-9i-den-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-9-pro-thumb-600x600",
+        "title": "realme-9-pro-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c11-2021-2gb-32gb-xanh-600x600",
+        "title": "realme-c11-2021-2gb-32gb-xanh-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c11-2021-blue-1-600x600",
+        "title": "realme-c11-2021-blue-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c21-y-black-600x600",
+        "title": "realme-c21-y-black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c21y-blue-600x600",
+        "title": "realme-c21y-blue-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c25s-grey-7-600x600",
+        "title": "realme-c25s-grey-7-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c25y-64gb-xanh-thumb-600x600",
+        "title": "realme-c25y-64gb-xanh-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "realme-c35-thumb-new-600x600",
+        "title": "realme-c35-thumb-new-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "redmi-10-gray-600x600",
+        "title": "redmi-10-gray-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a03s-black-600x600",
+        "title": "samsung-galaxy-a03s-black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a03-xanh-thumb-600x600",
+        "title": "samsung-galaxy-a03-xanh-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Samsung-Galaxy-A13-cam-thumb-600x600",
+        "title": "Samsung-Galaxy-A13-cam-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a22-4g-mint-1-600x600",
+        "title": "samsung-galaxy-a22-4g-mint-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a23-cam-thumb-600x600",
+        "title": "samsung-galaxy-a23-cam-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a32-4g-thumb-tim-600x600-600x600",
+        "title": "samsung-galaxy-a32-4g-thumb-tim-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a33-5g-xanh-thumb-600x600",
+        "title": "samsung-galaxy-a33-5g-xanh-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a52-8gb-256gb-thumb-blue-600x600-600x600",
+        "title": "samsung-galaxy-a52-8gb-256gb-thumb-blue-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a52s-5g-mint-600x600",
+        "title": "samsung-galaxy-a52s-5g-mint-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Samsung-Galaxy-A53-xanh-thumb-600x600",
+        "title": "Samsung-Galaxy-A53-xanh-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-a73-5g-xanh-thumb-600x600",
+        "title": "samsung-galaxy-a73-5g-xanh-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Samsung-galaxy-m53-nâu-600x600",
+        "title": "Samsung-galaxy-m53-nâu-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-m53-nau-thumb-600x600",
+        "title": "samsung-galaxy-m53-nau-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-note-20-062220-122200-fix-600x600",
+        "title": "samsung-galaxy-note-20-062220-122200-fix-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-s20-fan-edition-090320-040338-600x600",
+        "title": "samsung-galaxy-s20-fan-edition-090320-040338-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Samsung-Galaxy-S21-FE-tim-600x600",
+        "title": "Samsung-Galaxy-S21-FE-tim-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-s21-plus-den-600x600-600x600",
+        "title": "samsung-galaxy-s21-plus-den-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-s21-tim-600x600",
+        "title": "samsung-galaxy-s21-tim-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-s21-ultra-bac-600x600-1-600x600",
+        "title": "samsung-galaxy-s21-ultra-bac-600x600-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-z-flip-3-cream-1-600x600",
+        "title": "samsung-galaxy-z-flip-3-cream-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "samsung-galaxy-z-fold-3-silver-1-600x600",
+        "title": "samsung-galaxy-z-fold-3-silver-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivi-y01-đen-thumb-600x600",
+        "title": "vivi-y01-đen-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivo-v21-5g-xanh-den-600x600",
+        "title": "vivo-v21-5g-xanh-den-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Vivo-V23e-1-2-600x600",
+        "title": "Vivo-V23e-1-2-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Vivo-y15s-2021-xanh-den-660x600",
+        "title": "Vivo-y15s-2021-xanh-den-660x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivo-y21-white-01-1-600x600",
+        "title": "vivo-y21-white-01-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Vivo-y33s-yellow-thumb-600x600",
+        "title": "Vivo-y33s-yellow-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivo-y53s-xanh-600x600",
+        "title": "vivo-y53s-xanh-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivo-y55-den-thumb-600x600",
+        "title": "vivo-y55-den-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "vivo-y72-5g-blue-600x600",
+        "title": "vivo-y72-5g-blue-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-11-lite-5g-ne-pink-600x600",
+        "title": "xiaomi-11-lite-5g-ne-pink-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-11t-pro-5g-8gb-thumb-600x600",
+        "title": "xiaomi-11t-pro-5g-8gb-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Xiaomi-11T-White-1-2-3-600x600",
+        "title": "Xiaomi-11T-White-1-2-3-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Xiaomi-12-xam-thumb-mau-600x600",
+        "title": "Xiaomi-12-xam-thumb-mau-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-mi-11-lite-4g-blue-600x600",
+        "title": "xiaomi-mi-11-lite-4g-blue-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-9a-grey-600x600-1-600x600",
+        "title": "xiaomi-redmi-9a-grey-600x600-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-9c-3gb-xam-600x600",
+        "title": "xiaomi-redmi-9c-3gb-xam-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-10-2022-den-thumb-600x600",
+        "title": "xiaomi-redmi-10-2022-den-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-10c-xanh-luc-thumb-600x600",
+        "title": "xiaomi-redmi-10c-xanh-luc-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-note-10-pro-thumb-xam-600x600-600x600",
+        "title": "xiaomi-redmi-note-10-pro-thumb-xam-600x600-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-note-10s-6gb-thumb-1-600x600",
+        "title": "xiaomi-redmi-note-10s-6gb-thumb-1-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "Xiaomi-redmi-note-11-black-600x600",
+        "title": "Xiaomi-redmi-note-11-black-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-note-11-pro-trang-thumb-600x600",
+        "title": "xiaomi-redmi-note-11-pro-trang-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    },
+    {
+        "imageName": "xiaomi-redmi-note-11s-5g-lam-hong-thumb-600x600",
+        "title": "xiaomi-redmi-note-11s-5g-lam-hong-thumb-600x600",
+        "handsetCols": 2,
+        "handsetRows": 2,
+        "webCols": 1,
+        "webRows": 1
+    }
+]

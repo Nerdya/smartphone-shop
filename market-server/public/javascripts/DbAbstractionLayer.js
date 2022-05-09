@@ -44,4 +44,37 @@ async function queryDealsCollection() {
     }
 }
 
-module.exports = { queryDealsCollection };
+async function queryPhonesCollection() {
+    if (connected) {
+
+        let jsonResponse = {
+            "handsetCards": [],
+            "webCards": []
+        };
+
+        const phonesCollectionArray = await db.collection('PHONES').find().toArray();
+
+        phonesCollectionArray.forEach(element => {
+            let handsetElement = {}
+            handsetElement['imageName'] = element['imageName'];
+            handsetElement['title'] = element['title'];
+            handsetElement['rows'] = element['handsetRows'];
+            handsetElement['cols'] = element['handsetCols'];
+            jsonResponse.handsetCards.push(handsetElement);
+
+            let webElement = {};
+            webElement['imageName'] = element['imageName'];
+            webElement['title'] = element['title'];
+            webElement['rows'] = element['webRows'];
+            webElement['cols'] = element['webCols'];
+            jsonResponse.webCards.push(webElement);
+        });
+
+        return jsonResponse;
+
+    } else {
+        return null;
+    }
+}
+
+module.exports = { queryPhonesCollection, queryDealsCollection };

@@ -1,12 +1,20 @@
 <div class="grid-container">
   <h1 class="mat-h1">Todays Deals</h1>
-  <mat-grid-list cols="5" rowHeight="350px">
+  <mat-grid-list cols="5" rowHeight="360px" gutterSize="20px">
     <mat-grid-tile *ngFor="let card of cards" [colspan]="card.cols" [rowspan]="card.rows">
-      <mat-card class="dashboard-card card-image" [style.background-image]="getImage(card.imageName)">
+      <!-- <mat-card class="dashboard-card card-image" [style.background-image]="getPhoneImage(card.imageName)">
         <mat-card-header class="mat-app-background card-title">
           <mat-card-title>
             {{card.title}}
           </mat-card-title>
+        </mat-card-header>
+      </mat-card> -->
+      <mat-card class="card">
+        <div class="card-image-container">
+          <img mat-card-image class="card-image" src="{{getPhoneImage(card.imageName)}}" alt="">
+        </div>
+        <mat-card-header class="card-title">
+          {{card.title}}
         </mat-card-header>
       </mat-card>
     </mat-grid-tile>

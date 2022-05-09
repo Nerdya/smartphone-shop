@@ -1,16 +1,17 @@
 .grid-container {
-  margin: 20px;
+  padding: 20px;
+  background-color: #eeeeee;
 }
 
-.dashboard-card {
+/* .dashboard-card {
   position: absolute;
   top: 15px;
   left: 15px;
   right: 15px;
   bottom: 15px;
-}
+} */
 
-.more-button {
+/* .more-button {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -18,15 +19,28 @@
 
 .dashboard-card-content {
   text-align: center;
+} */
+
+.card {
+  padding: 0;
 }
 
-.card-image{
-  background-size: cover;
-  background-repeat: no-repeat;
+.card-image-container {
+  padding: 16px;
+}
+
+.card-image {
+  display: block;
+  margin: 0 !important;
+  max-height: 284px;
+  max-width: 284px;
   cursor: pointer;
 }
 
-.card-title{
-  padding-top: 10px;
-  border-radius: 6px;
+.card-title {
+  padding-bottom: 16px;
+  width: 284px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
