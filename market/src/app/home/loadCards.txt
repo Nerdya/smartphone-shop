@@ -1,0 +1,57 @@
+// let brands = [
+    //   'Galaxy S22',
+    //   'iPhone 12',
+    //   'iPhone 13',
+    //   'iPhone SE',
+    //   'iPhone XI',
+    //   'iPhone XR',
+    //   'Itel L6006',
+    //   'Itel L6502',
+    //   'Oppo A15S',
+    //   'Oppo A16K',
+    //   'Oppo A55',
+    //   'Oppo A74',
+    //   'Oppo A76',
+    //   'Oppo A95',
+    //   'Oppo Find X5',
+    //   'Oppo Reno 4',
+    //   'Oppo Reno 5',
+    //   'Oppo Reno 6',
+    //   'Oppo Reno 7',
+    //   'Realme 8',
+    //   'Realme 9',
+    //   'Realme 9I',
+    //   'Realme C11',
+    //   'Realme C21Y',
+    //   'Realme C25S',
+    //   'Realme C25Y',
+    //   'Realme C35',
+    //   'Redmi 10',
+    //   'Samsung Galaxy A03S',
+    //   'Samsung Galaxy A03',
+    //   'Samsung Galaxy A13',
+    //   'Samsung Galaxy A22',
+    //   'Samsung Galaxy A23',
+    //   'Samsung Galaxy A32',
+    //   'Samsung Galaxy A33',
+    //   'Samsung Galaxy A52',
+    //   'Samsung Galaxy A52S',
+    //   'Samsung Galaxy A53',
+    //   'Samsung Galaxy A73',
+    //   'Samsung Galaxy M53',
+    //   'Samsung Galaxy Note 20',
+    //   'Samsung Galaxy S20 Fan Edition',
+    //   'Samsung Galaxy S21',
+    //   'Samsung Galaxy Z Flip',
+    //   'Samsung Galaxy Z Fold',
+    //   'Vivo Y01',
+    //   ''
+    // ];
+    // let sortedCards = [
+
+    // ];
+    // this.cards.map(value => {
+    //   if (value?.title.indexOf('Galaxy S22') > -1) {
+
+    //   }
+    // })

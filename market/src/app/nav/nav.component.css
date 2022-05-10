@@ -24,3 +24,16 @@
   opacity: 0.8;
   z-index: 99;
 }
+
+.nav-title {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+
+.small-sub-text {
+  height: 12px;
+  line-height: 80%;
+  text-align: right;
+  font-size: 10px;
+}

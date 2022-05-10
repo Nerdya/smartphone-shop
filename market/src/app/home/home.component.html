@@ -1,7 +1,7 @@
 <div class="grid-container">
   <h1 class="mat-h1">Sản phẩm</h1>
-  <mat-grid-list cols="5" rowHeight="360px" gutterSize="20px">
-    <mat-grid-tile *ngFor="let card of cards" [colspan]="card.cols" [rowspan]="card.rows">
+  <mat-grid-list cols="5" rowHeight="400px" gutterSize="20px">
+    <mat-grid-tile *ngFor="let card of cards" [colspan]="colspan" [rowspan]="rowspan">
       <!-- <mat-card class="dashboard-card card-image" [style.background-image]="getPhoneImage(card.imageName)">
         <mat-card-header class="mat-app-background card-title">
           <mat-card-title>
@@ -13,8 +13,20 @@
         <div class="card-image-container">
           <img mat-card-image class="card-image" src="{{getPhoneImage(card.imageName)}}" alt="">
         </div>
-        <mat-card-header class="card-title">
-          {{card.title}}
+        <mat-card-header class="card-header">
+          <div class="card-header-container">
+            <p class="card-text card-name">
+              {{card.name}}
+            </p>
+            <div class="card-price-container">
+              <p class="card-text card-price current">
+                {{pipePrice(card.current_price)}}
+              </p>
+              <p class="card-text card-price original">
+                {{pipePrice(card.original_price)}}
+              </p>
+            </div>
+          </div>
         </mat-card-header>
       </mat-card>
     </mat-grid-tile>

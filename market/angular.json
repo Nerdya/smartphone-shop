@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "market"
+  "defaultProject": "market",
+  "cli": {
+    "analytics": false
+  }
 }

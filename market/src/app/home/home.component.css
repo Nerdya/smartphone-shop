@@ -1,5 +1,6 @@
 .grid-container {
-  padding: 20px;
+  padding: 20px 10vh;
+  background-color: #eeeeee;
 }
 
 /* .dashboard-card {
@@ -36,10 +37,46 @@
   cursor: pointer;
 }
 
-.card-title {
-  padding-bottom: 16px;
-  width: 284px;
+.card-text {
+  width: 100%;
+  text-align: center;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.card-header {
+  padding-bottom: 16px;
+  width: 284px;
+}
+
+.card-header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-name {
+  font-size: 18px;
+}
+
+.card-price-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-price {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.original {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.current {
+  color: darkcyan;
+  font-weight: bold;
 }

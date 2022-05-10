@@ -13,8 +13,10 @@ import { NotifierService } from '../notifier.service';
 export class HomeComponent {
   /** Based on the screen size, switch from standard to one column per row */
   cards = [];
-  cardsForHandset = [];
-  cardsForWeb = [];
+  rowspan = 1;
+  colspan = 1;
+  // cardsForHandset = [];
+  // cardsForWeb = [];
 
   isHandset: boolean = false;
   isHandsetObserver: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
@@ -31,16 +33,23 @@ export class HomeComponent {
     private notifierService: NotifierService) { }
 
   ngOnInit() {
+    console.log(this.pipePrice(1000000));
     this.isHandsetObserver.subscribe(currentObserverValue => {
       this.isHandset = currentObserverValue;
-      this.loadCards();
+      if (this.isHandset) {
+        this.rowspan = this.colspan = 2;
+      } else {
+        this.rowspan = this.colspan = 1;
+      }
+      // this.loadCards();
     });
 
     this.appService.getDeals().subscribe(
       response => {
-        this.cardsForHandset = response.handsetCards;
-        this.cardsForWeb = response.webCards;
-        this.loadCards();
+        this.cards = response.data;
+        // this.cardsForHandset = response.handsetCards;
+        // this.cardsForWeb = response.webCards;
+        // this.loadCards();
         // this.notifierService.showNotification('Todays deals loaded successfully. Click on any deal!', 'OK', 'success');
       },
       error => {
@@ -50,9 +59,9 @@ export class HomeComponent {
     );
   }
 
-  loadCards() {
-    this.cards = this.isHandset ? this.cardsForHandset : this.cardsForWeb;
-  }
+  // loadCards() {
+  //   this.cards = this.isHandset ? this.cardsForHandset : this.cardsForWeb;
+  // }
 
   getPhoneImage(imageName: string): string {
     return 'http://localhost:3000/images/phones/' + imageName + '.jpg';
@@ -60,5 +69,22 @@ export class HomeComponent {
 
   getImage(imageName: string): string {
     return 'url(' + 'http://localhost:3000/images/' + imageName + '.jpg' + ')';
+  }
+
+  pipePrice(value) {
+    let str = value.toString();
+    let res = str.slice(0, 0 - (str.length - (str.length % 3)));
+    str = str.slice(res.length);
+    while (str.length >= 3) {
+      let endIndex = 0 - (str.length - 3);
+      if (endIndex === 0) {
+        res += '.' + str.slice(0);
+      } else {
+        res += '.' + str.slice(0, endIndex);
+      }
+      str = str.slice(3);
+    }
+    res += ' ₫';
+    return res;
   }
 }
