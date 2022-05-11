@@ -22,7 +22,9 @@
         <span>Group4</span>
         <span class="small-sub-text">mobile</span>
       </span>
-      <span style="flex:auto;"></span>
+      <button mat-button routerLink="/shop">Shop</button>
+      <button mat-button routerLink="/about">About</button>
+      <span class="spacer"></span>
       <mat-slide-toggle [(ngModel)]="isDarkTheme" labelPosition="before" (change)="storeThemeSelection()">
         <mat-icon>bedtime</mat-icon>
       </mat-slide-toggle>

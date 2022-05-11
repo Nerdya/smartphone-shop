@@ -4,6 +4,8 @@ import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { ProductService } from '../services/product.service';
 import { NotifierService } from '../services/notifier.service';
+import { environment } from '../../environments/environment';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-product-list',
@@ -28,9 +30,11 @@ export class ProductListComponent {
     })
   );
 
-  constructor(private breakpointObserver: BreakpointObserver,
+  constructor(
+    private breakpointObserver: BreakpointObserver,
     public productService: ProductService,
-    private notifierService: NotifierService) { }
+    private notifierService: NotifierService,
+    private router: Router) { }
 
   ngOnInit() {
     console.log(this.pipePrice(1000000));
@@ -64,11 +68,11 @@ export class ProductListComponent {
   // }
 
   getPhoneImage(imageName: string): string {
-    return 'http://localhost:3000/images/phones/' + imageName + '.jpg';
+    return environment.API_URL + 'images/phones/' + imageName + '.jpg';
   }
 
   getImage(imageName: string): string {
-    return 'url(' + 'http://localhost:3000/images/' + imageName + '.jpg' + ')';
+    return 'url(' + environment.API_URL + 'images/' + imageName + '.jpg' + ')';
   }
 
   pipePrice(value) {
@@ -86,5 +90,9 @@ export class ProductListComponent {
     }
     res += ' ₫';
     return res;
+  }
+
+  viewPhone(id) {
+    this.router.navigate(['/shop/' + id]);
   }
 }

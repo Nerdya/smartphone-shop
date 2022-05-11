@@ -1,5 +1,5 @@
 <div class="grid-container">
-  <h1 class="mat-h1">Sản phẩm</h1>
+  <h1 class="mat-h1 title">Sản phẩm</h1>
   <mat-grid-list cols="5" rowHeight="400px" gutterSize="20px">
     <mat-grid-tile *ngFor="let card of cards" [colspan]="colspan" [rowspan]="rowspan">
       <!-- <mat-card class="dashboard-card card-image" [style.background-image]="getPhoneImage(card.imageName)">
@@ -9,7 +9,7 @@
           </mat-card-title>
         </mat-card-header>
       </mat-card> -->
-      <mat-card class="card">
+      <mat-card class="card" (click)="viewPhone(card._id)">
         <div class="card-image-container">
           <img mat-card-image class="card-image" src="{{getPhoneImage(card.imageName)}}" alt="">
         </div>
