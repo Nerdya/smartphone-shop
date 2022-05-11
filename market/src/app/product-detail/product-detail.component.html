@@ -8,36 +8,105 @@
             <table>
                 <tr>
                     <td class="card-img-td">
-                        <img class="card-img" src="{{getPhoneImage(productData?.imageName)}}" alt="">
+                        <img class="card-img" src="{{imageUrl}}" alt="">
                     </td>
                     <td class="card-info-td">
-                        <div>
+                        <div class="card-title">
                             <h1>{{productData?.name}}</h1>
+                            <p>SKU: {{productData?._id}}</p>
                         </div>
                         <div class="card-info">
                             <p class="card-text card-price current">
-                                {{pipePrice(productData?.current_price)}}
+                                {{pipePrice(currentPrice)}}
                             </p>
                             <p class="card-text card-price original">
-                                {{pipePrice(productData?.original_price)}}
+                                {{pipePrice(originalPrice)}}
                             </p>
                         </div>
                         <div class="card-info">
-                            <mat-button-toggle-group>
-                                <mat-button-toggle *ngFor="let version of versions">
-                                    <p>{{version.name}}</p>
-                                    <p>{{pipePrice(version.price)}}</p>
+                            <p>Bạn đang xem phiên bản:</p>
+                        </div>
+                        <div class="card-info">
+                            <mat-button-toggle-group value="1">
+                                <mat-button-toggle class="card-version-btn" *ngFor="let version of versions" value="{{version.id}}" (change)="updatePrice($event)">
+                                    <p class="card-text card-version">
+                                        {{version.name}}
+                                    </p>
+                                    <p class="card-text card-version current">
+                                        {{pipePrice(version.current_price)}}
+                                    </p>
                                 </mat-button-toggle>
                             </mat-button-toggle-group>
                         </div>
+                        <button class="purchase-btn" mat-raised-button color="primary" (click)="purchase()">Mua sản phẩm</button>
                     </td>
                 </tr>
             </table>
             <div>
-                
+                <h2>Thông số kĩ thuật:</h2>
+                <table class="card-specs">
+                    <tr>
+                        <th>Hãng điện thoại</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Kích thước</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Trọng lượng</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Màu</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Loại pin</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Thời gian sử dụng</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Thời gian sạc</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Camera</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Đèn flash</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Bộ nhớ</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Bluetooth</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Phụ kiện đi kèm</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Chế độ bảo hành</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Ghi chú</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                    <tr>
+                        <th>Chất lượng</th>
+                        <td>Lorem ipsum</td>
+                    </tr>
+                </table>
             </div>
-            <div></div>
-            
         </mat-card-content>
     </mat-card>
 </div>

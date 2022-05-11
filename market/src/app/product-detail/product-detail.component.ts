@@ -13,10 +13,13 @@ export class ProductDetailComponent implements OnInit {
   productID: any;
   productData: any;
   versions: any = [
-    {name: '128GB', price: '10000000'},
-    {name: '256GB', price: '10500000'},
-    {name: '512GB', price: '11000000'}
+    {id: 1, name: '128GB', current_price: '10000000', original_price: '12000000'},
+    {id: 2, name: '256GB', current_price: '10500000', original_price: '12500000'},
+    {id: 3, name: '512GB', current_price: '11000000', original_price: '13000000'}
   ];
+  currentPrice = 10000000;
+  originalPrice = 12000000;
+  imageUrl = '';
 
   constructor(
     private productService: ProductService,
@@ -39,7 +42,7 @@ export class ProductDetailComponent implements OnInit {
         allData.map(item => {
           if (productID === item._id) {
             this.productData = item;
-            console.log(this.productData);
+            this.getPhoneImage(this.productData?.imageName);
           }
         });
       },
@@ -49,8 +52,8 @@ export class ProductDetailComponent implements OnInit {
     );
   }
 
-  getPhoneImage(imageName: string): string {
-    return environment.API_URL + 'images/phones/' + imageName + '.jpg';
+  getPhoneImage(imageName: string) {
+    this.imageUrl = environment.API_URL + 'images/phones/' + imageName + '.jpg';
   }
 
   toShop() {
@@ -72,6 +75,20 @@ export class ProductDetailComponent implements OnInit {
     }
     res += ' ₫';
     return res;
+  }
+
+  updatePrice(event) {
+    let id: Number = +event.value;
+    this.versions.map(item => {
+      if (id === item.id) {
+        this.currentPrice = item.current_price;
+        this.originalPrice = item.original_price;
+      }
+    });
+  }
+
+  purchase() {
+    alert('Chưa hoàn thiện chức năng!');
   }
 
 }

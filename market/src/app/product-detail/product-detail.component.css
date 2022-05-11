@@ -41,8 +41,17 @@ table, tr {
     width: 32vh;
 }
 
+.card-title h1 {
+    margin-bottom: 0;
+}
+
+.card-title p {
+    color: gray;
+}
+
 .card-info-td {
-    margin-left: 16px;
+    padding-left: 16px;
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -59,10 +68,10 @@ table, tr {
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
-  }
+}
 
 .card-price {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .original {
@@ -76,4 +85,39 @@ table, tr {
     color: darkcyan;
     font-size: 24px;
     font-weight: bold;
+}
+
+.card-version-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.card-version {
+    margin-bottom: 0;
+    line-height: 160%;
+    font-size: 16px;
+}
+
+.purchase-btn {
+    margin: 16px 0;
+    width: 360px;
+}
+
+.card-specs {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+.card-specs th {
+    border: 1px black solid;
+    padding: 0 16px;
+    width: 16vh;
+    text-align: left;
+}
+
+.card-specs td {
+    border: 1px black solid;
+    padding: 0 16px;
+    width: auto;
+    text-align: left;
 }
