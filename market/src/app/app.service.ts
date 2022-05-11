@@ -10,6 +10,10 @@ export class AppService {
   constructor(public httpClient: HttpClient) { }
 
   getDeals(): Observable<any> {
+    return this.httpClient.get('http://localhost:3000/deals');
+  }
+
+  getPhones(): Observable<any> {
     return this.httpClient.get('http://localhost:3000/phones');
   }
 }

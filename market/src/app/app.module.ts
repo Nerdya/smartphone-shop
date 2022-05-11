@@ -12,7 +12,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { HomeComponent } from './home/home.component';
+import { ProductListComponent } from './product-list/product-list.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
@@ -24,13 +24,17 @@ import { FormsModule } from '@angular/forms';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { InterceptorService } from './loader/interceptor.service';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    HomeComponent,
-    NotifierComponent
+    ProductListComponent,
+    NotifierComponent,
+    ProductDetailComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

@@ -6,11 +6,11 @@ import { AppService } from '../app.service';
 import { NotifierService } from '../notifier.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-product-list',
+  templateUrl: './product-list.component.html',
+  styleUrls: ['./product-list.component.css']
 })
-export class HomeComponent {
+export class ProductListComponent {
   /** Based on the screen size, switch from standard to one column per row */
   cards = [];
   rowspan = 1;
@@ -44,7 +44,7 @@ export class HomeComponent {
       // this.loadCards();
     });
 
-    this.appService.getDeals().subscribe(
+    this.appService.getPhones().subscribe(
       response => {
         this.cards = response.data;
         // this.cardsForHandset = response.handsetCards;
