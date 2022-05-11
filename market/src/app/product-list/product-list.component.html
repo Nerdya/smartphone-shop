@@ -9,8 +9,8 @@
           </mat-card-title>
         </mat-card-header>
       </mat-card> -->
-      <mat-card class="card" (click)="viewPhone(card._id)">
-        <div class="card-image-container">
+      <mat-card class="card">
+        <div class="card-image-container" (click)="viewPhone(card._id)">
           <img mat-card-image class="card-image" src="{{getPhoneImage(card.imageName)}}" alt="">
         </div>
         <mat-card-header class="card-header">
@@ -20,10 +20,10 @@
             </p>
             <div class="card-price-container">
               <p class="card-text card-price current">
-                {{pipePrice(card.current_price)}}
+                {{pipePrice(card.versions[0].current_price)}}
               </p>
               <p class="card-text card-price original">
-                {{pipePrice(card.original_price)}}
+                {{pipePrice(card.versions[0].original_price)}}
               </p>
             </div>
           </div>

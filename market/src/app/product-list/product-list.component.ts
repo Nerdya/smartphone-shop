@@ -13,12 +13,13 @@ import { Router } from '@angular/router';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  /** Based on the screen size, switch from standard to one column per row */
   cards = [];
-  rowspan = 1;
-  colspan = 1;
+  
+  /** Based on the screen size, switch from standard to one column per row */
   // cardsForHandset = [];
   // cardsForWeb = [];
+  rowspan = 1;
+  colspan = 1;
 
   isHandset: boolean = false;
   isHandsetObserver: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
@@ -56,7 +57,6 @@ export class ProductListComponent {
         // this.notifierService.showNotification('Todays deals loaded successfully. Click on any deal!', 'OK', 'success');
       },
       error => {
-        // alert('There was an error in receiving data from server. Please come again later!');
         this.notifierService.showNotification('There was an error in receiving data from server!', 'OK', 'error');
       }
     );
@@ -66,12 +66,12 @@ export class ProductListComponent {
   //   this.cards = this.isHandset ? this.cardsForHandset : this.cardsForWeb;
   // }
 
+  // getImage(imageName: string): string {
+  //   return 'url(' + environment.API_URL + 'images/' + imageName + '.jpg' + ')';
+  // }
+
   getPhoneImage(imageName: string): string {
     return environment.API_URL + 'images/phones/' + imageName + '.jpg';
-  }
-
-  getImage(imageName: string): string {
-    return 'url(' + environment.API_URL + 'images/' + imageName + '.jpg' + ')';
   }
 
   pipePrice(value) {

@@ -12,13 +12,9 @@ import { environment } from '../../environments/environment';
 export class ProductDetailComponent implements OnInit {
   productID: any;
   productData: any;
-  versions: any = [
-    {id: 1, name: '128GB', current_price: '10000000', original_price: '12000000'},
-    {id: 2, name: '256GB', current_price: '10500000', original_price: '12500000'},
-    {id: 3, name: '512GB', current_price: '11000000', original_price: '13000000'}
-  ];
-  currentPrice = 10000000;
-  originalPrice = 12000000;
+  versions: any;
+  currentPrice: any;
+  originalPrice: any;
   imageUrl = '';
 
   constructor(
@@ -33,9 +29,7 @@ export class ProductDetailComponent implements OnInit {
   }
 
   loadProductDetails(productID) {
-    // this.productService.getProductDetails(productID).subscribe(product => {
-    //   this.productData = product;
-    // });
+    // Chưa có api get, giải pháp tạm thời là getAll và lọc trên FE
     this.productService.getPhones().subscribe(
       response => {
         let allData = response.data;
@@ -43,6 +37,9 @@ export class ProductDetailComponent implements OnInit {
           if (productID === item._id) {
             this.productData = item;
             this.getPhoneImage(this.productData?.imageName);
+            this.versions = this.productData?.versions;
+            this.currentPrice = this.versions[0]?.current_price;
+            this.originalPrice = this.versions[0]?.original_price;
           }
         });
       },
