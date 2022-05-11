@@ -1,1 +1,43 @@
-<p>product-detail works!</p>
+<div class="container">
+    <mat-card class="card">
+        <div class="back" (click)="toShop()">
+            <mat-icon class="back-icon">arrow_left</mat-icon>
+            <span class="back-text">Quay về trang chủ</span>
+        </div>
+        <mat-card-content>
+            <table>
+                <tr>
+                    <td class="card-img-td">
+                        <img class="card-img" src="{{getPhoneImage(productData?.imageName)}}" alt="">
+                    </td>
+                    <td class="card-info-td">
+                        <div>
+                            <h1>{{productData?.name}}</h1>
+                        </div>
+                        <div class="card-info">
+                            <p class="card-text card-price current">
+                                {{pipePrice(productData?.current_price)}}
+                            </p>
+                            <p class="card-text card-price original">
+                                {{pipePrice(productData?.original_price)}}
+                            </p>
+                        </div>
+                        <div class="card-info">
+                            <mat-button-toggle-group>
+                                <mat-button-toggle *ngFor="let version of versions">
+                                    <p>{{version.name}}</p>
+                                    <p>{{pipePrice(version.price)}}</p>
+                                </mat-button-toggle>
+                            </mat-button-toggle-group>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div>
+                
+            </div>
+            <div></div>
+            
+        </mat-card-content>
+    </mat-card>
+</div>

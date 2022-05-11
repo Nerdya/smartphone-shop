@@ -37,7 +37,6 @@ export class ProductListComponent {
     private router: Router) { }
 
   ngOnInit() {
-    console.log(this.pipePrice(1000000));
     this.isHandsetObserver.subscribe(currentObserverValue => {
       this.isHandset = currentObserverValue;
       if (this.isHandset) {
