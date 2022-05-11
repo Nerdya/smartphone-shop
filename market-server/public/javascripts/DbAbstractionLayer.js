@@ -59,9 +59,7 @@ async function queryPhonesCollection() {
             item['_id'] = res['_id'];
             item['imageName'] = res['imageName'];
             item['name'] = res['name'];
-            item['original_price'] = res['original_price'];
-            item['current_price'] = res['current_price'],
-            item['quantity'] = res['quantity'],
+            item['versions'] = res['versions'];
             item['description'] = res['description']
             jsonResponse.data.push(item);
         });
