@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { map } from 'rxjs/operators';
 import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
-import { AppService } from '../app.service';
-import { NotifierService } from '../notifier.service';
+import { ProductService } from '../services/product.service';
+import { NotifierService } from '../services/notifier.service';
 
 @Component({
   selector: 'app-product-list',
@@ -29,7 +29,7 @@ export class ProductListComponent {
   );
 
   constructor(private breakpointObserver: BreakpointObserver,
-    public appService: AppService,
+    public productService: ProductService,
     private notifierService: NotifierService) { }
 
   ngOnInit() {
@@ -44,7 +44,7 @@ export class ProductListComponent {
       // this.loadCards();
     });
 
-    this.appService.getPhones().subscribe(
+    this.productService.getPhones().subscribe(
       response => {
         this.cards = response.data;
         // this.cardsForHandset = response.handsetCards;
