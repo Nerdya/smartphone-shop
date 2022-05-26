@@ -15,6 +15,7 @@ export class ProductDetailComponent implements OnInit {
   versions: any;
   currentPrice: any;
   originalPrice: any;
+  quantity: any;
   imageUrl = '';
 
   constructor(
@@ -40,6 +41,7 @@ export class ProductDetailComponent implements OnInit {
             this.versions = this.productData?.versions;
             this.currentPrice = this.versions[0]?.current_price;
             this.originalPrice = this.versions[0]?.original_price;
+            this.quantity = this.versions[0]?.quantity;
           }
         });
       },
@@ -80,6 +82,7 @@ export class ProductDetailComponent implements OnInit {
       if (id === item.id) {
         this.currentPrice = item.current_price;
         this.originalPrice = item.original_price;
+        this.quantity = item.quantity;
       }
     });
   }
