@@ -1,0 +1,50 @@
+<div class="container">
+    <mat-card class="card">
+        <div class="back" (click)="toShop()">
+            <mat-icon class="back-icon">arrow_left</mat-icon>
+            <span class="back-text">Quay về trang chủ</span>
+        </div>
+        <mat-card-content>
+            <table>
+                <tr>
+                    <td>
+                        Thông tin sản phẩm
+                    </td>
+                    <td>
+                        Số lượng
+                    </td>
+                    <td>
+                        Thành tiền
+                    </td>
+                    <td></td>
+                </tr>
+                <tr *ngFor="let item of cart">
+                    <td class="item-td">
+                        <div class="item-img-container">
+                            <img class="item-img" src="{{getPhoneImage(item.imageName)}}" alt="">
+                        </div>
+                        <div>
+                            {{item.name}}
+                        </div>
+                    </td>
+                    <td>
+                        {{item.purchase}}
+                    </td>
+                    <td>
+                        {{pipePrice(calcPrice(item))}}
+                    </td>
+                    <td class="action-td">
+                        <button mat-button (click)="increase(item)">+1</button>
+                        <button mat-button (click)="decrease(item)">-1</button>
+                        <button mat-button (click)="remove(item)">
+                            <mat-icon>remove_shopping_cart</mat-icon>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+            <div class="purchase">
+                <button class="purchase-btn" mat-raised-button color="primary" (click)="purchase()">Thanh toán</button>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -60,11 +60,11 @@ export class ProductDetailComponent implements OnInit {
   }
 
   pipePrice(value) {
-    let str = value.toString();
-    let res = str.slice(0, 0 - (str.length - (str.length % 3)));
-    str = str.slice(res.length);
-    while (str.length >= 3) {
-      let endIndex = 0 - (str.length - 3);
+    let str = value?.toString();
+    let res = str?.slice(0, 0 - (str?.length - (str?.length % 3)));
+    str = str?.slice(res.length);
+    while (str?.length >= 3) {
+      let endIndex = 0 - (str?.length - 3);
       if (endIndex === 0) {
         res += '.' + str.slice(0);
       } else {
@@ -87,8 +87,14 @@ export class ProductDetailComponent implements OnInit {
     });
   }
 
-  purchase() {
-    alert('Chưa hoàn thiện chức năng!');
+  addToCart() {
+    if (localStorage.getItem(this.productID)) {
+      let count = Number(localStorage.getItem(this.productID)) + 1;
+      localStorage.setItem(this.productID, count.toString());
+    } else {
+      localStorage.setItem(this.productID, '1');
+    }
+    this.notifierService.showNotification('Đã thêm sản phẩm vào giỏ hàng', 'OK', 'success');
   }
 
 }

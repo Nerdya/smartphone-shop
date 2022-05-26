@@ -9,9 +9,9 @@
   </mat-sidenav> -->
   <mat-sidenav-content>
 
-    <div *ngIf="loaderService.isLoading | async" class="loader-container">
+    <!-- <div *ngIf="loaderService.isLoading | async" class="loader-container">
       <mat-spinner style="top: 50%; left: 50%;"></mat-spinner>
-    </div>
+    </div> -->
 
     <mat-toolbar color="primary">
       <!-- <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
@@ -25,9 +25,12 @@
       <button mat-button routerLink="/shop">Shop</button>
       <button mat-button routerLink="/about">About</button>
       <span class="spacer"></span>
-      <mat-slide-toggle [(ngModel)]="isDarkTheme" labelPosition="before" (change)="storeThemeSelection()">
+      <!-- <mat-slide-toggle [(ngModel)]="isDarkTheme" labelPosition="before" (change)="storeThemeSelection()">
         <mat-icon>bedtime</mat-icon>
-      </mat-slide-toggle>
+      </mat-slide-toggle> -->
+      <button mat-button routerLink="/cart">
+        <mat-icon>shopping_cart</mat-icon>
+      </button>
     </mat-toolbar>
 
     <router-outlet></router-outlet>
